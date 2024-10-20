@@ -6,7 +6,7 @@ import { mockNFTData } from "@/data/mockNFTData";
 export default function CreatorSection() {
   return (
     <div className="mx-auto w-9/12 md:w-10/12">
-      <div className="flex justify-between items-end mb-12">
+      <div className="flex justify-between items-end mb-6 md:mb-12">
         <div>
           <h1 className=" text-xl md:text-4xl font-bold">Top Creators</h1>
           <h2 className="text-sm md:text-xl font-medium mt-3">
@@ -21,7 +21,7 @@ export default function CreatorSection() {
           <p className="font-bold">View Rankings</p>
         </button>
       </div>
-      <div className="grid grid-cols-1  md:grid-cols-4 gap-8  mt-6">
+      <div className="grid grid-cols-1  md:grid-cols-4 gap-4 md:gap-8  mt-6">
         {mockNFTData.slice(0, 10).map((item, index) => (
           <CreatorCard key={item.id} nft={item} index={index} />
         ))}

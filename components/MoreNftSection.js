@@ -11,7 +11,7 @@ import { mockNFTData } from "@/data/mockNFTData";
 export default function MoreNftSection() {
   return (
     <div className="container mx-auto w-9/12 md:w-10/12">
-      <div className="flex justify-between items-end mb-12">
+      <div className="flex justify-between items-end mb-6 md:mb-12">
         <div>
           <h1 className="text-xl md:text-4xl font-bold">Discover More Nfts</h1>
           <h2 className="text-sm md:text-2xl font-medium mt-3">
@@ -23,7 +23,7 @@ export default function MoreNftSection() {
           <p className="font-bold text-lg">See All</p>
         </button>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mx-auto mt-6">
         {mockNFTData.slice(0, 3).map((nft, index) => (
           <NftCard key={index} nft={nft} />
         ))}
