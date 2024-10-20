@@ -7,7 +7,7 @@ import {
 
 export default function Newsletter() {
   return (
-    <div className="container space-x-0 md:space-x-14 mx-auto w-10/12 rounded-3xl flex flex-col md:flex-row justify-between md:items-center bg-none md:bg-[#3b3b3b] py-12 px-20 pt-16">
+    <div className="container space-x-0 md:space-x-14 mx-auto w-10/12 rounded-3xl flex flex-col md:flex-row justify-between md:items-center bg-none md:bg-[#3b3b3b] py-12 md:px-20 pt-16">
       <img
         src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/photo-1@2x.png"
         className="rounded-lg w-full md:w-1/2 h-1/2 "

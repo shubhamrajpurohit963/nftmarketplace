@@ -6,7 +6,7 @@ const spaceMono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"] });
 
 export default function HeaderSection() {
   return (
-    <div className="flex w-7/12 mx-auto md:py-[70px] md:w-10/12 space-x-28">
+    <div className="flex w-9/12 mx-auto md:py-[70px] md:w-10/12 space-x-28">
       <div className={`flex-1 flex-col ${workSans.className}`}>
         <h1 className="text-3xl md:text-6xl font-medium my-2">
           Discover Digital Art & Collect Nfts
@@ -29,18 +29,18 @@ export default function HeaderSection() {
           <p className="font-medium">Get Started</p>
         </button>
         <div
-          className={`flex justify-between font-medium text-md md:text-2xl my-8  ${spaceMono.className}`}
+          className={`flex justify-between font-medium text-sm md:text-2xl my-8  ${spaceMono.className}`}
         >
           <div>
-            <p className="text-xl md:text-2xl font-bold">240k+</p>
+            <p className="text-lg md:text-2xl font-bold">240k+</p>
             <p>Total Sale</p>
           </div>
           <div>
-            <p className="text-xl md:text-2xl font-bold">100k+</p>
+            <p className="text-lg md:text-2xl font-bold">100k+</p>
             <p>Auctions</p>
           </div>
           <div>
-            <p className="text-xl md:text-2xl font-bold">240k+</p>
+            <p className="text-lg md:text-2xl font-bold">240k+</p>
             <p>Artists</p>
           </div>
         </div>

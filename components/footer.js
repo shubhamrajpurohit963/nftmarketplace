@@ -41,7 +41,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="col-span-2" >
+        <div className=" md:col-span-2" >
           <h3 className="text-xl font-semibold mb-4">Join Our Weekly Digest</h3>
           <p className="text-gray-400 mb-4">
             Get exclusive promotions & updates straight to your inbox.

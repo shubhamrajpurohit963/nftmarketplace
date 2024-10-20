@@ -10,11 +10,11 @@ import { mockNFTData } from "@/data/mockNFTData";
 
 export default function MoreNftSection() {
   return (
-    <div className="container mx-auto w-7/12 md:w-10/12">
+    <div className="container mx-auto w-9/12 md:w-10/12">
       <div className="flex justify-between items-end mb-12">
         <div>
-          <h1 className="text-2xl md:text-4xl font-bold">Discover More Nfts</h1>
-          <h2 className="text-md md:text-2xl font-medium mt-3">
+          <h1 className="text-xl md:text-4xl font-bold">Discover More Nfts</h1>
+          <h2 className="text-sm md:text-2xl font-medium mt-3">
             Explore New Trending Nfts
           </h2>
         </div>

@@ -5,11 +5,11 @@ import { mockNFTData } from "@/data/mockNFTData";
 
 export default function CreatorSection() {
   return (
-    <div className="mx-auto w-7/12 md:w-10/12">
+    <div className="mx-auto w-9/12 md:w-10/12">
       <div className="flex justify-between items-end mb-12">
         <div>
-          <h1 className=" text-2xl md:text-4xl font-bold">Top Creators</h1>
-          <h2 className="text-md md:text-xl font-medium mt-3">
+          <h1 className=" text-xl md:text-4xl font-bold">Top Creators</h1>
+          <h2 className="text-sm md:text-xl font-medium mt-3">
             Checkout Top Rated Creators On The Nft Marketplace
           </h2>
         </div>
@@ -29,9 +29,9 @@ export default function CreatorSection() {
       <button className="flex md:hidden py-4 px-8 my-8 md:my-2 border-2 w-full ease-in hover:translate-y-0 hover:scale-95 duration-100 cursor-pointer  border-[#a159ff] border-width-2 rounded-2xl items-center justify-center space-x-2">
         <RocketLaunchIcon
           aria-hidden="true"
-          className="h-5 w-5 text-[#a159ff]  "
+          className="h-4 w-4 text-[#a159ff]  "
         />
-        <p className="font-bold">View Rankings</p>
+        <p className="font-bold text-xs">View Rankings</p>
       </button>
     </div>
   );

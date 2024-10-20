@@ -7,18 +7,18 @@ export default function NftCard({ nft }) {
       <div className="bg-[#3b3b3b] w-full
        flex flex-col p-6 space-y-2 ">
         <p className=" font-bold text-xl ">{nft?.nft_name}</p>
-        <div className="flex space-x-2">
-          <img src={nft?.owner_image} className="rounded-full h-8 w-8 " />
+        <div className="flex space-x-2 items-center">
+          <img src={nft?.owner_image} className="rounded-full h-5 w-6 " />
           <p>{nft?.owner_name}</p>
         </div>
         <div className="flex w-full justify-between">
           <div>
-            <p className="text-sm text-[#858584]">price</p>
-            <p className="text-md">{nft?.price} ETH</p>
+            <p className="text-xs md:text-sm text-[#858584]">price</p>
+            <p className="text-xs md:text-sm ">{nft?.price} ETH</p>
           </div>
           <div>
-            <p className="text-sm text-[#858584]">Higest Bid</p>
-            <p className="text-md">
+            <p className="text-xs md:text-sm text-[#858584]">Higest Bid</p>
+            <p className="text-xs md:text-sm">
               {nft?.price + Math.floor(Math.random() * 10)} ETH
             </p>
           </div>

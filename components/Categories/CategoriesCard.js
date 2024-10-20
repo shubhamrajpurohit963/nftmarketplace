@@ -35,14 +35,14 @@ export default function CategoryCard({ nft, index }) {
         className="absolute inset-0 bg-no-repeat bg-cover bg-center blur-md opacity-100"
       ></div>
 
-      <div className="relative z-10 flex h-52  md:h-64 w-32 md:w-40 items-center justify-center">
+      <div className="relative z-10 flex h-32  md:h-64 w-32 md:w-40 items-center justify-center">
         <IconComponent
           aria-hidden="true"
-          className="h-1/2 md:h-20 w-1/2 md:w-20 text-white"
+          className="h-1/3 w-1/3 md:h-20  md:w-20 text-white"
         />
       </div>
 
-      <div className="relative z-10 bg-[#3b3b3b] w-full flex items-center justify-center p-4 md:p-7">
+      <div className="relative z-10 bg-[#3b3b3b] w-full flex items-center justify-center h-1/3 p-4 md:p-7">
         <h3 className="text-sm md:text-lg font-bold text-white">
           {nft?.category}
         </h3>

@@ -13,14 +13,14 @@ export default function FullBanner() {
 
       <div className="absolute inset-0 bg-gradient-to-t from-purple-500 via-transparent to-transparent opacity-100"></div>
 
-      <div className="relative z-10 flex flex-col space-y-5 md:space-y-0 md:flex-row items-start justify-between container px-40 mt-96 md:items-end my-10 text-white">
-        <div className="space-y-5">
-          <div className="flex md:w-1/2 w-full items-center space-x-2 bg-[#3b3b3b]  rounded-full px-4 py-2 cursor-pointer">
+      <div className="relative z-10 flex flex-col space-y-5 md:space-y-0 md:flex-row items-start justify-between container px-10 md:px-40 mt-96 md:items-end my-10 text-white">
+        <div className="space-y-3">
+          <div className="flex md:w-1/2 w-1/2 items-center justify-center space-x-2 bg-[#3b3b3b]  rounded-full px-4 py-2 cursor-pointer">
             <img
               src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/primary-photo-placeholder-1@2x.png"
-              className="rounded-full h-8 w-8"
+              className="rounded-full h-6 w-6 md:h-8 md:w-8"
             />
-            <p>Shroomie</p>
+            <p className="text-xs md:text-sm">Shroomie</p>
           </div>
           <h3 className={`text-4xl font-bold mb-2  ${spaceMono.className}`}>
             Magic Mushrooms

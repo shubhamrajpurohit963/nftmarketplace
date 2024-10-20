@@ -5,7 +5,7 @@ import HowItWorkCard from "./HowItWork/HowItWorkCard";
 
 export default function HowItWork() {
   return (
-    <div className="container mx-auto w-7/12 md:w-10/12">
+    <div className="container mx-auto w-9/12 md:w-10/12">
       <div className="flex justify-between items-end mb-12">
         <div>
           <h1 className="text-4xl font-bold">How It Works</h1>
