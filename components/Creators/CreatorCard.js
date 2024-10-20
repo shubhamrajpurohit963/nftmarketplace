@@ -11,9 +11,9 @@ export default function CreatorCard({ nft, index }) {
         className="rounded-full h-14 w-14 md:h-32 md:w-32 "
         src={nft?.image}
       />
-      <div className="md:flex md:items-center w-full md:flex-col">
+      <div className="md:flex md:items-center w-full md:flex-col md:mt-2">
         <h3 className="text-md font-bold mb-2">{nft?.owner_name}</h3>
-        <div className="flex items-center justify-start  text-[9px]">
+        <div className="flex items-center justify-start  text-[9px] md:text-sm">
           <p className="text-[#858584]">Total Sales: </p>
           <p>{nft?.sales}.52 ETH</p>
         </div>

@@ -2,7 +2,7 @@ import { RocketLaunchIcon, UserIcon } from "@heroicons/react/24/outline";
 
 export default function CollectionCard({ nft }) {
   return (
-    <div className="flex flex-col mr-2 my-5 cursor-pointer">
+    <div className="flex max-w-96 flex-col mr-2 my-5 cursor-pointer">
       <img
         className="rounded-lg h-80 w-96 ease-in hover:translate-y-0 hover:scale-95 duration-200"
         src={nft.image}
